@@ -17,7 +17,7 @@ val navController = findNavController(R.id.nav_host_fragment_content_main)
 ```
 to
 ```
-val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_jost_fragment_content_main) as NavHostFragment
+val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment_content_main) as NavHostFragment
 val navController = navHostFragment.navController
 ```
 
